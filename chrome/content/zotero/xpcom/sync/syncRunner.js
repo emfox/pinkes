@@ -35,7 +35,8 @@ Zotero.Sync.Runner_Module = function (options = {}) {
 	
 	Zotero.defineProperty(this, 'enabled', {
 		get: () => {
-			return !!_apiKey || Zotero.Sync.Data.Local.hasCachedCredentials;
+			return Zotero.Prefs.get('sync.enabled')
+				&& (!!_apiKey || Zotero.Sync.Data.Local.hasCachedCredentials);
 		}
 	});
 	Zotero.defineProperty(this, 'syncInProgress', { get: () => _syncInProgress });
@@ -121,6 +122,12 @@ Zotero.Sync.Runner_Module = function (options = {}) {
 
 
 	this._sync = async function (options) {
+		// Pinkes: sync to zotero.org is opt-in and off by default
+		if (!Zotero.Prefs.get('sync.enabled')) {
+			Zotero.debug("Sync disabled by preference");
+			return false;
+		}
+
 		// Clear message list
 		_errors = [];
 		_tooltipMessages = [];

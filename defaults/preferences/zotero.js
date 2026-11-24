@@ -3,7 +3,7 @@
 // Add new user-adjustable hidden preferences to
 // http://www.zotero.org/documentation/hidden_prefs
 
-pref("extensions.zotero.firstRun2", true);
+pref("extensions.zotero.firstRun2", false);
 pref("extensions.zotero.undoHistory.steps", 100);
 
 pref("extensions.zotero.saveRelativeAttachmentPath", false);
@@ -158,7 +158,7 @@ pref("extensions.zotero.integration.citationPreviewShown", true);
 
 // Connector settings
 pref("extensions.zotero.httpServer.enabled", true);
-pref("extensions.zotero.httpServer.port", 23119);	// ascii "ZO"
+pref("extensions.zotero.httpServer.port", 23120);	// Pinkes local server
 pref("extensions.zotero.httpServer.localAPI.enabled", false);
 
 // Zeroconf
@@ -168,6 +168,7 @@ pref("extensions.zotero.zeroconf.server.enabled", false);
 pref("extensions.zotero.streaming.enabled", true);
 
 // Sync
+pref("extensions.zotero.sync.enabled", false);
 pref("extensions.zotero.sync.autoSync", true);
 pref("extensions.zotero.sync.server.username", "");
 pref("extensions.zotero.sync.server.compressData", true);

@@ -111,15 +111,15 @@ pref("extensions.experiments.enabled", true);
 
 // Not set on Windows in Firefox anymore since it's a per-installation pref,
 // but we override that in fetch_xulrunner
-pref("app.update.auto", true);
+pref("app.update.auto", false);
 
 // URL user can browse to manually if for some reason all update installation
 // attempts fail.
-pref("app.update.url.manual", "https://www.zotero.org/download");
+pref("app.update.url.manual", "https://pinkes.org/");
 
 // A default value for the "More information about this update" link
 // supplied in the "An update is available" page of the update wizard.
-pref("app.update.url.details", "https://www.zotero.org/support/changelog");
+pref("app.update.url.details", "https://pinkes.org/");
 
 // Interval: Time between checks for a new version (in seconds)
 //           default=1 day
@@ -170,3 +170,16 @@ pref("media.utility-ffvpx.enabled", false);
 
 // Allow collectionTree scrolling when Control is highlighting collections on win
 pref("mousewheel.with_control.action", 1);
+
+// Pinkes: no first-run Firefox/Zotero popups and no Zotero update channel
+pref("browser.startup.page", 0);
+pref("browser.startup.homepage", "about:blank");
+pref("browser.newtabpage.enabled", false);
+pref("browser.startup.homepage_override.mstone", "ignore");
+pref("browser.aboutwelcome.enabled", false);
+pref("startup.homepage_welcome_url", "");
+pref("browser.shell.checkDefaultBrowser", false);
+pref("datareporting.policy.dataSubmissionPolicyBypassNotification", true);
+pref("datareporting.policy.dataSubmissionPolicyAcceptedVersion", 2);
+pref("toolkit.telemetry.reportingpolicy.firstRun", false);
+pref("app.update.enabled", false);

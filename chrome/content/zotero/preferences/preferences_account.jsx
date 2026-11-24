@@ -35,6 +35,13 @@ Zotero_Preferences.Sync = {
 	checkmarkChar: '\u2705',
 	noChar: '\uD83D\uDEAB',
 	
+	setEnabled: function (enabled) {
+		Zotero.Prefs.set('sync.enabled', enabled);
+		if (enabled) {
+			Zotero.Sync.Runner.setSyncTimeout(1);
+		}
+	},
+
 	_pendingSessionToken: null,
 	_loginResolve: null,
 	_loginReject: null,
@@ -42,6 +49,10 @@ Zotero_Preferences.Sync = {
 	_pollInterval: 3000,
 
 	init: async function () {
+		let syncEnabled = document.getElementById('pinkes-sync-enabled');
+		if (syncEnabled) {
+			syncEnabled.checked = Zotero.Prefs.get('sync.enabled');
+		}
 		this.storeLastStorageSettings();
 		this.updateStorageSettingsUI();
 		this.updateStorageSettingsGroupsUI();
