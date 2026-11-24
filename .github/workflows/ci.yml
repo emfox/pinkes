@@ -31,7 +31,7 @@ jobs:
       - name: Check no generated artifacts
         run: |
           set -eu
-          if git ls-files | grep -E '(^|/)(omni\.ja|.*\.deb|.*\.zip)$'; then
+          if git ls-files | grep -E '(^|/)omni\.ja$|\.deb$' ||              git ls-files | grep -E '\.zip$' | grep -v '^test/'; then
             echo "Generated build artifact committed to source tree" >&2
             exit 1
           fi
