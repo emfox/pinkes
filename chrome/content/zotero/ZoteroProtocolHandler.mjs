@@ -27,7 +27,7 @@
     ***** END LICENSE BLOCK *****
 */
 
-const ZOTERO_SCHEME = "zotero";
+const ZOTERO_SCHEME = "pinkes";
 const ZOTERO_PROTOCOL_CID = Components.ID("{9BC3D762-9038-486A-9D70-C997AF848A7C}");
 const ZOTERO_PROTOCOL_CONTRACTID = "@mozilla.org/network/protocol;1?name=" + ZOTERO_SCHEME;
 const ZOTERO_PROTOCOL_NAME = "Zotero Chrome Extension Protocol";

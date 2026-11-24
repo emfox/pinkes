@@ -1096,7 +1096,7 @@ Zotero.Server.Connector.Ping.prototype = {
 	init: async function (req) {
 		if (req.method == 'GET') {
 			return [200, "text/html", '<!DOCTYPE html><html>'
-				+ '<body>Zotero is running</body></html>'];
+				+ '<body>Pinkes is running</body></html>'];
 		} else {
 			// Store the active URL so it can be used for site-specific Quick Copy
 			if (req.data.activeURL) {

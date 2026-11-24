@@ -364,7 +364,7 @@ import-window =
 import-where-from = De onde você deseja importar?
 import-online-intro-title = Introdução
 import-source-file =
-    .label = Um arquivo (BibTeX, RIS, RDF do Zotero, etc.)
+    .label = Um arquivo (BibTeX, RIS, RDF do Pinkes, etc.)
 import-source-folder =
     .label = Uma pasta de PDFs ou outros arquivos
 import-source-online =
@@ -405,8 +405,8 @@ file-interface-items-were-relinked =
         [one] Um item foi religado
        *[other] { $numRelinked } itens foram religados
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Ocorreu um erro ao importar o arquivo selecionado com “{ $translator }”. Por favor, verifique se o arquivo e válido e tente novamente.
 import-online-intro = No próximo passo será solicitado que faça login no { $targetAppOnline } e permita acesso ao { -app-name }. Isto é necessário para importar sua biblioteca { $targetApp } para o { -app-name }.
@@ -749,7 +749,7 @@ attachment-preview-placeholder = Sem anexo para visualizar
 attachment-rename-from-parent =
     .tooltiptext = Renomear arquivo para corresponder ao item pai
 account-log-in = Logar
-account-not-logged-in-text = Logar na sua conta Zotero e sincronizar seus dados.
+account-not-logged-in-text = Logar na sua conta Pinkes e sincronizar seus dados.
 account-error-login-session-expired = Sua sessão de expirou. Por favor, tente novamente.
 toggle-preview =
     .label =
@@ -1029,7 +1029,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Colar e buscar
-mac-word-plugin-install-message = Zotero precisa acessar os dados do Word para instalar a extensão do Word.
+mac-word-plugin-install-message = Pinkes precisa acessar os dados do Word para instalar a extensão do Word.
 mac-word-plugin-install-folder-message = { -app-name } precisa de acesso a pasta inicialização do Word para instalar o plugin do Word.
 mac-word-plugin-install-action-button =
     .label = Instalar Extensão do Word

@@ -371,8 +371,8 @@ file-interface-items-were-relinked =
         [one] 1 個の項目が再リンクされました
        *[other] { $numRelinked } 個の項目が再リンクされました
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = “{ $translator }” で選択したファイルのインポート中にエラーが発生しました。ファイルが有効であることを確認して、もう一度試してください。
 import-online-intro = 次のステップでは、 { $targetAppOnline } にログインし、 { -app-name } にアクセスを許可するよう求められます。これは、 { $targetApp } ライブラリを { -app-name } にインポートするために必要です。
@@ -703,7 +703,7 @@ attachment-preview-placeholder = プレビューに添付ファイルはあり�
 attachment-rename-from-parent =
     .tooltiptext = 親項目と一致するようにファイル名を変更
 account-log-in = ログイン
-account-not-logged-in-text = Zotero アカウントにログインしてデータを同期する。
+account-not-logged-in-text = Pinkes アカウントにログインしてデータを同期する。
 account-error-login-session-expired = ログインセッションの有効期限が切れました。もう一度試してください。
 toggle-preview =
     .label =
@@ -969,7 +969,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = 貼り付けと検索
-mac-word-plugin-install-message = Zotero が Word プラグインをインストールするには、Word データへのアクセスが必要です。
+mac-word-plugin-install-message = Pinkes が Word プラグインをインストールするには、Word データへのアクセスが必要です。
 mac-word-plugin-install-folder-message = { -app-name } が Word プラグインをインストールするには、Word のスタートアップフォルダーへのアクセスが必要です。
 mac-word-plugin-install-action-button =
     .label = Word プラグインをインストール

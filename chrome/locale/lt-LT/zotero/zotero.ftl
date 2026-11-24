@@ -390,8 +390,8 @@ file-interface-items-were-relinked =
         [one] Iš naujo susietas vienas įrašas
        *[other] Iš naujo susieta įrašų: { $numRelinked }
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Klaida importuojant pasirinktą rinkmeną su „{ $translator }“. Įsitikinkite, kad rinkmena yra tinkama ir bandykite iš naujo.
 import-online-intro = Kitame žingsnyje prašysime prisijungti prie { $targetAppOnline } paskyros ir suteikti prieigą programai { -app-name } . Tai būtina norint importuoti biblioteką iš { $targetApp } į { -app-name }.
@@ -492,7 +492,7 @@ styleEditor-preview =
     .aria-label = Peržiūra
 stylePreview-generating = Generating previews…
 publications-intro-page = Nuosavos publikacijos
-publications-intro = „Nuosavose publikacijose“ patalpinti įrašai rodysimi Zotero.org svetainėje jūsų profilyje. Jei pasirenkate įtraukti prisegtas rinkmenas, jos bus viešai prieinamos pagal jūsų pasirinktą licenciją. „Nuosavoms publikacijoms“ priskirkite tik tuos darbus, kuriuos patys kūrėte, o rinkmenas viešinkite tik jei turite teisę tą daryti.
+publications-intro = „Nuosavose publikacijose“ patalpinti įrašai rodysimi zotero.org svetainėje jūsų profilyje. Jei pasirenkate įtraukti prisegtas rinkmenas, jos bus viešai prieinamos pagal jūsų pasirinktą licenciją. „Nuosavoms publikacijoms“ priskirkite tik tuos darbus, kuriuos patys kūrėte, o rinkmenas viešinkite tik jei turite teisę tą daryti.
 publications-include-checkbox-files =
     .label = Įtraukti rinkmenas
 publications-include-checkbox-notes =
@@ -740,7 +740,7 @@ attachment-preview-placeholder = Nėra peržiūrėtinų priedų
 attachment-rename-from-parent =
     .tooltiptext = Rename File to Match Parent Item
 account-log-in = Log In
-account-not-logged-in-text = Log in to your Zotero account to sync your data.
+account-not-logged-in-text = Log in to your Pinkes account to sync your data.
 account-error-login-session-expired = Your login session has expired. Please try again.
 toggle-preview =
     .label =
@@ -1029,7 +1029,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Įdėti ir ieškoti
-mac-word-plugin-install-message = Zotero turi galėti prieiti prie „Word“ duomenų tam, kad galėtų įdiegti papildinį „Word“ programai.
+mac-word-plugin-install-message = Pinkes turi galėti prieiti prie „Word“ duomenų tam, kad galėtų įdiegti papildinį „Word“ programai.
 mac-word-plugin-install-folder-message = { -app-name } needs access to Word’s startup folder to install the Word plugin.
 mac-word-plugin-install-action-button =
     .label = Įdiegti papildinį „Word“ programai

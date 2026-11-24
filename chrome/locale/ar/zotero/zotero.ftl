@@ -396,8 +396,8 @@ file-interface-items-were-relinked =
         [one] One item was relinked
        *[other] { $numRelinked } items were relinked
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = حدث خطأ في استيراد الملف المحدد بـ “{ $translator }”. يرجى التأكد من صلاحية الملف والمحاولة مرة أخرى.
 import-online-intro = في الخطوة التالية، سيُطلب منك تسجيل الدخول إلى { $targetAppOnline } ومنح { -app-name } حق الوصول. هذا ضروري لاستيراد مكتبة { $targetApp } الخاصة بك إلى { -app-name }.
@@ -758,7 +758,7 @@ attachment-preview-placeholder = لا يوجد مرفق للمعاينة
 attachment-rename-from-parent =
     .tooltiptext = إعادة تسمية الملف ليتطابق مع العنصر الأصلي
 account-log-in = Log In
-account-not-logged-in-text = Log in to your Zotero account to sync your data.
+account-not-logged-in-text = Log in to your Pinkes account to sync your data.
 account-error-login-session-expired = Your login session has expired. Please try again.
 toggle-preview =
     .label =

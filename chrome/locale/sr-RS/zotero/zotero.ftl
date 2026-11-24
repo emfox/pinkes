@@ -413,8 +413,8 @@ file-interface-items-were-relinked =
         [one] Ставка је поново повезана
        *[other] Поново повезаних ставки: { $numRelinked }
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Грешка приликом увоза изабране датотеке преко „{ $translator }“. Проверите да ли је датотека исправна и покушајте поново.
 import-online-intro = У следећем кораку ћемо вас позвати да се пријавите на { $targetAppOnline } и дате дозволе за приступ програму { -app-name }. Ово је нопходно да увезете вашу { $targetApp } библиотеку у { -app-name }.
@@ -757,7 +757,7 @@ attachment-preview-placeholder = Нема прилога за преглед
 attachment-rename-from-parent =
     .tooltiptext = Preimenuj datoteku da se podudara sa nadređenom stavkom
 account-log-in = Prijavi se
-account-not-logged-in-text = Prijavite se na svoj Zotero nalog da biste sinhronizovali podatke.
+account-not-logged-in-text = Prijavite se na svoj Pinkes nalog da biste sinhronizovali podatke.
 account-error-login-session-expired = Vaša sesija za prijavu je istekla. Pokušajte ponovo.
 toggle-preview =
     .label =

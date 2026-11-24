@@ -1,8 +1,8 @@
--brand-shorter-name = Zotero
--brand-short-name = Zotero
--brand-full-name = Zotero
--brand-product-name = Zotero
--vendor-short-name = Zotero
--app-name = Zotero
--subscription-name = Zotero
-trademarkInfo = Zotero is a trademark of the Corporation for Digital Scholarship.
+-brand-shorter-name = Pinkes
+-brand-short-name = Pinkes
+-brand-full-name = Pinkes
+-brand-product-name = Pinkes
+-vendor-short-name = Pinkes
+-app-name = Pinkes
+-subscription-name = Pinkes
+trademarkInfo = Pinkes is a trademark of the Corporation for Digital Scholarship.

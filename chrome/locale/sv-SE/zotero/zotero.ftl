@@ -388,8 +388,8 @@ file-interface-items-were-relinked =
         [one] Ett objekt länkades om
        *[other] { $numRelinked } objekt länkades om
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Ett fel uppstod när den valda filen importerades med ”{ $translator }”. Kontrollera att filen är giltig och försök igen.
 import-online-intro = I nästa steg ombeds du logga in på { $targetAppOnline } och ge { -app-name } åtkomst. Detta behövs för att importera ditt { $targetApp }-bibliotek till { -app-name }.
@@ -726,7 +726,7 @@ attachment-preview-placeholder = Ingen bilaga att förhandsvisa
 attachment-rename-from-parent =
     .tooltiptext = Byt filnamn så att det matchar överordnat objekt
 account-log-in = Logga in
-account-not-logged-in-text = Logga in på ditt Zotero-konto för att synkronisera dina data.
+account-not-logged-in-text = Logga in på ditt Pinkes-konto för att synkronisera dina data.
 account-error-login-session-expired = Din inloggningssession har gått ut. Försök igen.
 toggle-preview =
     .label =
@@ -999,7 +999,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Klistra in och sök
-mac-word-plugin-install-message = Zotero behöver åtkomst till Word-data för att installera Word-insticksprogrammet.
+mac-word-plugin-install-message = Pinkes behöver åtkomst till Word-data för att installera Word-insticksprogrammet.
 mac-word-plugin-install-folder-message = { -app-name } behöver åtkomst till Words startmapp för att installera Word-insticksprogrammet.
 mac-word-plugin-install-action-button =
     .label = Installera Word-insticksprogrammet

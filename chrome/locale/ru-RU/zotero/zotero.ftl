@@ -422,8 +422,8 @@ file-interface-items-were-relinked =
         [one] Один элемент был повторно связан
        *[other] { $numRelinked } элементов были повторно связаны
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Произошла ошибка при импорте выбранного файла с помощью “{ $translator }”. Убедитесь, что файл валиден, и повторите попытку.
 import-online-intro = На следующем шаге вам будет предложено войти в { $targetAppOnline } и предоставить доступ { -app-name }. Это необходимо для импорта вашей библиотеки { $targetApp } в { -app-name }.
@@ -770,7 +770,7 @@ attachment-preview-placeholder = Нет вложений для предпрос
 attachment-rename-from-parent =
     .tooltiptext = Переименовать файл в соответствии с родительским элементом
 account-log-in = Войти
-account-not-logged-in-text = Войдите в свой аккаунт Zotero для синхронизации данных.
+account-not-logged-in-text = Войдите в свой аккаунт Pinkes для синхронизации данных.
 account-error-login-session-expired = Время вашей сессии входа закончилось. Пожалуйста, попробуйте ещё раз.
 toggle-preview =
     .label =
@@ -1057,7 +1057,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Вставить и Искать
-mac-word-plugin-install-message = Zotero необходим доступ к данным Word для установки плагина для Word.
+mac-word-plugin-install-message = Pinkes необходим доступ к данным Word для установки плагина для Word.
 mac-word-plugin-install-folder-message = { -app-name } необходим доступ к папке автозагрузки Word для установки плагина Word.
 mac-word-plugin-install-action-button =
     .label = Установить плагин для Word

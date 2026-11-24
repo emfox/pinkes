@@ -2269,11 +2269,11 @@ Zotero.VersionHeader = {
 		try {
 			let channel = subject.QueryInterface(Components.interfaces.nsIHttpChannel);
 			let domain = channel.URI.host;
-			// Add X-Zotero-Version header to HTTP requests to zotero.org
+			// Add X-Pinkes-Version header to HTTP requests to zotero.org
 			let isPrimaryDomain = domain == ZOTERO_CONFIG.DOMAIN_NAME
 				|| domain.endsWith('.' + ZOTERO_CONFIG.DOMAIN_NAME);
 			if (isPrimaryDomain) {
-				channel.setRequestHeader("X-Zotero-Version", Zotero.version, false);
+				channel.setRequestHeader("X-Pinkes-Version", Zotero.version, false);
 			}
 			else {
 				// Use "Firefox/[version]" in user agent if not a proxy check or file sync request

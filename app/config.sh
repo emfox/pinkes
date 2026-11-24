@@ -13,8 +13,8 @@ custom_components_hash_win_x64="fc3112fb8592d6bca02d9be905f22e94f98b724330791c8d
 custom_components_hash_win_arm64="77791fe545ea6dc38a60356bf98b838a149808f118a962fffd6efa7ca63af8ae"
 custom_components_hash_win32="91d81183a66c4033fc0fa3ae936507c92fc99385b616f6ef36bd71074dcce63a"
 
-APP_NAME="Zotero"
-APP_ID="zotero\@zotero.org"
+APP_NAME="Pinkes"
+APP_ID="pinkes\@pinkes.org"
 
 # Whether to sign builds
 SIGN=0

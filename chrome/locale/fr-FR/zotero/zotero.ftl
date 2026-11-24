@@ -405,8 +405,8 @@ file-interface-items-were-relinked =
         [one] Un lien rétabli
        *[other] { $numRelinked } liens rétablis
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Une erreur s'est produite pendant l'importation du fichier sélectionné par  “{ $translator }”. Assurez-vous que le fichier est valide et réessayez.
 import-online-intro = A l'étape suivante, il vous sera demandé de vous connecter à { $targetAppOnline } et d'y donner accès à { -app-name }. Cette autorisation est nécessaire pour importer votre bibliothèque { $targetApp } dans { -app-name }.
@@ -749,7 +749,7 @@ attachment-preview-placeholder = Aucune pièce jointe à prévisualiser
 attachment-rename-from-parent =
     .tooltiptext = Renommer le fichier pour correspondre au document parent
 account-log-in = Se connecter
-account-not-logged-in-text = Connectez-vous à votre compte Zotero pour synchroniser vos données.
+account-not-logged-in-text = Connectez-vous à votre compte Pinkes pour synchroniser vos données.
 account-error-login-session-expired = Votre session a expiré. Veuillez réessayer.
 toggle-preview =
     .label =
@@ -910,7 +910,7 @@ advanced-search-condition-input =
 search-operator-isEmpty = est vide
 search-operator-isNotEmpty = n'est pas vide
 search-conditions-tooltip-fields = Champs :
-search-conditions-collection = Collection (de Zotero)
+search-conditions-collection = Collection (de Pinkes)
 search-conditions-savedSearch = Recherche enregistrée
 search-conditions-itemTypeID = Type de document
 search-query-keyword-creator = by
@@ -1029,7 +1029,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Coller et rechercher
-mac-word-plugin-install-message = Zotero doit avoir accès aux données de Word pour installer l'extension Word.
+mac-word-plugin-install-message = Pinkes doit avoir accès aux données de Word pour installer l'extension Word.
 mac-word-plugin-install-folder-message = { -app-name } a besoin d'accéder au dossier de démarrage de Word pour installer l'extension Word.
 mac-word-plugin-install-action-button =
     .label = Installer l'extension Word

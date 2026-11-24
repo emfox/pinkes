@@ -540,10 +540,10 @@
 		"string": "{numRelinked, plural, =0 {No items were relinked} one {One item was relinked} other {{ numRelinked } items were relinked}}"
 	},
 	"import-mendeley-cannot-decrypt": {
-		"string": "The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name=\"mendeley-import-kb\">How do I import a Mendeley library into Zotero?</a> for more information."
+		"string": "The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name=\"mendeley-import-kb\">How do I import a Mendeley library into Pinkes?</a> for more information."
 	},
 	"import-mendeley-unsupported": {
-		"string": "The selected file does not appear to be a Mendeley database. See <a data-l10n-name=\"mendeley-import-kb\">How do I import a Mendeley library into Zotero?</a> for more information."
+		"string": "The selected file does not appear to be a Mendeley database. See <a data-l10n-name=\"mendeley-import-kb\">How do I import a Mendeley library into Pinkes?</a> for more information."
 	},
 	"import-mendeley-db-in-use": {
 		"string": "The selected Mendeley database is in use. Please quit Mendeley Desktop and try again."
@@ -1038,7 +1038,7 @@
 		"string": "Log In"
 	},
 	"account-not-logged-in-text": {
-		"string": "Log in to your Zotero account to sync your data."
+		"string": "Log in to your Pinkes account to sync your data."
 	},
 	"account-error-login-session-expired": {
 		"string": "Your login session has expired. Please try again."
@@ -1515,7 +1515,7 @@
 		"string": "Paste and Search"
 	},
 	"mac-word-plugin-install-message": {
-		"string": "Zotero needs access to Word data to install the Word plugin."
+		"string": "Pinkes needs access to Word data to install the Word plugin."
 	},
 	"mac-word-plugin-install-folder-message": {
 		"string": "{ app-name } needs access to Word’s startup folder to install the Word plugin."

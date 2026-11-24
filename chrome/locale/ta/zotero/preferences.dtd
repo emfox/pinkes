@@ -121,7 +121,7 @@
 <!ENTITY zotero.preferences.cite.styles.styleManager.updated "புதுப்பிக்கப்பட்டது">
 <!ENTITY zotero.preferences.cite.styles.styleManager.csl "சிஎச்எல்">
 
-<!ENTITY zotero.preferences.keys.saveToZotero "சோட்டெரோவைச் சேமி (முகவரி பட்டி சின்னம்)">
+<!ENTITY zotero.preferences.keys.saveToPinkes "சோட்டெரோவைச் சேமி (முகவரி பட்டி சின்னம்)">
 <!ENTITY zotero.preferences.keys.focusLibrariesPane "நூலகங்கள் பலகம் மீது கவனம் செலுத்து">
 <!ENTITY zotero.preferences.keys.quicksearch "விரைவு தேடல்">
 <!ENTITY zotero.preferences.keys.newItem "புதிய உருப்படியை உருவாக்கவும்">

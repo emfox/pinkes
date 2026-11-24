@@ -121,7 +121,7 @@
 <!ENTITY zotero.preferences.cite.styles.styleManager.updated "Ажуриран">
 <!ENTITY zotero.preferences.cite.styles.styleManager.csl "CSL">
 
-<!ENTITY zotero.preferences.keys.saveToZotero "Сачувај у Зотеро (иконица траке за адресу)">
+<!ENTITY zotero.preferences.keys.saveToPinkes "Сачувај у Зотеро (иконица траке за адресу)">
 <!ENTITY zotero.preferences.keys.focusLibrariesPane "Пребаци на површ са библиотеком">
 <!ENTITY zotero.preferences.keys.quicksearch "Брза претрага">
 <!ENTITY zotero.preferences.keys.newItem "Направи нову ставку">

@@ -394,8 +394,8 @@ file-interface-items-were-relinked =
         [one] One item was relinked
        *[other] { $numRelinked } items were relinked
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = An error occurred importing the selected file with “{ $translator }”. Please ensure that the file is valid and try again.
 import-online-intro = In the next step you will be asked to log in to { $targetAppOnline } and grant { -app-name } access. This is necessary to import your { $targetApp } library into { -app-name }.
@@ -750,7 +750,7 @@ attachment-preview-placeholder = Stagadenn ebet da rakwelet
 attachment-rename-from-parent =
     .tooltiptext = Adenvel ar restr evit kenglotañ gant an elfenn gar
 account-log-in = Kevreañ
-account-not-logged-in-text = Kevreañ ouzh ho kont Zotero evit sinkronelaat ho roadennoù.
+account-not-logged-in-text = Kevreañ ouzh ho kont Pinkes evit sinkronelaat ho roadennoù.
 account-error-login-session-expired = Ho talc'h zo diamzeriet. Klaskit en-dro, mar plij.
 toggle-preview =
     .label =
@@ -1044,7 +1044,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Pegañ ha klask
-mac-word-plugin-install-message = Zotero en deus da haeziñ ouzh ho roadennoù Word evit gellout staliañ an astenn Word.
+mac-word-plugin-install-message = Pinkes en deus da haeziñ ouzh ho roadennoù Word evit gellout staliañ an astenn Word.
 mac-word-plugin-install-folder-message = { -app-name } needs access to Word’s startup folder to install the Word plugin.
 mac-word-plugin-install-action-button =
     .label = Staliañ an astenn Word

@@ -274,13 +274,13 @@ Zotero.Server.RequestHandler.prototype._bodyData = function () {
  */
 Zotero.Server.RequestHandler.prototype._generateResponse = function (status, contentTypeOrHeaders, body) {
 	var response = "HTTP/1.0 "+status+" "+Zotero.Server.responseCodes[status]+"\r\n";
-	response += "X-Zotero-Version: "+Zotero.version+"\r\n";
+	response += "X-Pinkes-Version: "+Zotero.version+"\r\n";
 	response += "X-Zotero-Connector-API-Version: "+CONNECTOR_API_VERSION+"\r\n";
 		
 	if (this.origin === ZOTERO_CONFIG.BOOKMARKLET_ORIGIN) {
 		response += "Access-Control-Allow-Origin: " + this.origin + "\r\n";
 		response += "Access-Control-Allow-Methods: POST, GET, OPTIONS\r\n";
-		response += "Access-Control-Allow-Headers: Content-Type,X-Zotero-Connector-API-Version,X-Zotero-Version\r\n";
+		response += "Access-Control-Allow-Headers: Content-Type,X-Zotero-Connector-API-Version,X-Pinkes-Version\r\n";
 	}
 	
 	if (contentTypeOrHeaders) {

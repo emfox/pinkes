@@ -388,8 +388,8 @@ file-interface-items-were-relinked =
         [one] Ein Eintrag wurde erneut verknüpft
        *[other] { $numRelinked } Einträge wurden erneut verknüpft
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Beim Importieren der ausgewählten Datei mit „{ $translator }“ ist ein Fehler aufgetreten. Bitte überprüfen Sie, ob die Datei korrekt ist, und versuchen Sie es erneut.
 import-online-intro = Im nächsten Schritt werden Sie gebeten, sich in { $targetAppOnline } einzuloggen und { -app-name } Zugriff zu gewähren. Dies ist notwendig, um Ihre { $targetApp }-Bibliothek in { -app-name } zu importieren.
@@ -488,7 +488,7 @@ styleEditor-preview =
     .aria-label = Vorschau
 stylePreview-generating = Generating previews…
 publications-intro-page = Meine Veröffentlichungen
-publications-intro = Einträge, die Sie zu Meine Veröffentlichungen hinzufügen, werden auf Ihrer Profilseite auf Zotero.org angezeigt. Wenn Sie die Option "Dateien verfügbar machen" auswählen, werden die Dateianhänge unter der von Ihnen gewählten Lizenz öffentlich verfügbar gemacht. Fügen Sie nur Werke hinzu, die Sie selbst erstellt haben, und laden wählen Sie diese Option nur dann, wenn Sie zur Verbreitung der Dateien berechtigt sind und sie öffentlich verfügbar machen wollen.
+publications-intro = Einträge, die Sie zu Meine Veröffentlichungen hinzufügen, werden auf Ihrer Profilseite auf zotero.org angezeigt. Wenn Sie die Option "Dateien verfügbar machen" auswählen, werden die Dateianhänge unter der von Ihnen gewählten Lizenz öffentlich verfügbar gemacht. Fügen Sie nur Werke hinzu, die Sie selbst erstellt haben, und laden wählen Sie diese Option nur dann, wenn Sie zur Verbreitung der Dateien berechtigt sind und sie öffentlich verfügbar machen wollen.
 publications-include-checkbox-files =
     .label = Anhänge verfügbar machen
 publications-include-checkbox-notes =
@@ -726,7 +726,7 @@ attachment-preview-placeholder = Kein Anhang für die Vorschau
 attachment-rename-from-parent =
     .tooltiptext = Dateien nach übergeordnetem Eintrag umbenennen
 account-log-in = Anmelden
-account-not-logged-in-text = Mit einem Zotero-Account anmelden, um die Daten zu synchronisieren.
+account-not-logged-in-text = Mit einem Pinkes-Account anmelden, um die Daten zu synchronisieren.
 account-error-login-session-expired = Ihre Sitzung ist abgelaufen. Bitte versuchen Sie es erneut.
 toggle-preview =
     .label =
@@ -999,7 +999,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Einfügen und suchen
-mac-word-plugin-install-message = Zotero muss auf die Daten von Word zugreifen, um das Word-Plugin zu installieren.
+mac-word-plugin-install-message = Pinkes muss auf die Daten von Word zugreifen, um das Word-Plugin zu installieren.
 mac-word-plugin-install-folder-message = { -app-name } muss auf den Startordner von Word zugreifen können, um das Word-Plugin zu installieren.
 mac-word-plugin-install-action-button =
     .label = Word-Plugin installieren

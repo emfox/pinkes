@@ -405,8 +405,8 @@ file-interface-items-were-relinked =
         [one] Se ha vuelto a vincular un elemento
        *[other] { $numRelinked } elementos se han vuelto a vincular
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Se ha producido un error al importar el archivo seleccionado con "{ $translator }". Asegúrese de que el archivo es válido e inténtelo de nuevo.
 import-online-intro = En el siguiente paso se le pedirá que inicie sesión en { $targetAppOnline } y conceda acceso a { -app-name }. Esto es necesario para importar su biblioteca { $targetApp } a { -app-name }.
@@ -749,7 +749,7 @@ attachment-preview-placeholder = No hay archivos adjuntos para la vista previa
 attachment-rename-from-parent =
     .tooltiptext = Renombrar el archivo para que coincida con el elemento principal
 account-log-in = Iniciar sesión
-account-not-logged-in-text = Inicie sesión en su cuenta de Zotero para sincronizar sus datos.
+account-not-logged-in-text = Inicie sesión en su cuenta de Pinkes para sincronizar sus datos.
 account-error-login-session-expired = Su sesión ha caducado. Inténtelo de nuevo.
 toggle-preview =
     .label =
@@ -1029,7 +1029,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Pegar y buscar
-mac-word-plugin-install-message = Zotero necesita acceder a los datos de Word para instalar la extensión de Word
+mac-word-plugin-install-message = Pinkes necesita acceder a los datos de Word para instalar la extensión de Word
 mac-word-plugin-install-folder-message = { -app-name } necesita acceder a la carpeta de inicio de Word para instalar el complemento de Word.
 mac-word-plugin-install-action-button =
     .label = Instalar extensión de Word

@@ -387,8 +387,8 @@ file-interface-items-were-relinked =
         [one] 已重新連結1個項目
        *[other] 已重新連結 { $numRelinked } 個項目
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = 使用“{ $translator }”匯入所選檔案時發生錯誤。請確保該檔案有效，然後重試。
 import-online-intro = 在下一步中，您需要登入 { $targetAppOnline } 並授權 { -app-name } 存取。這是匯入您的 { $targetApp } 文獻庫到 { -app-name } 的必要步驟。
@@ -719,7 +719,7 @@ attachment-preview-placeholder = 沒有可預覽的附件
 attachment-rename-from-parent =
     .tooltiptext = Rename File to Match Parent Item
 account-log-in = Log In
-account-not-logged-in-text = Log in to your Zotero account to sync your data.
+account-not-logged-in-text = Log in to your Pinkes account to sync your data.
 account-error-login-session-expired = Your login session has expired. Please try again.
 toggle-preview =
     .label =
@@ -985,7 +985,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = 貼上並搜尋
-mac-word-plugin-install-message = Zotero 需要存取 Word 資料來安裝 Word 外掛
+mac-word-plugin-install-message = Pinkes 需要存取 Word 資料來安裝 Word 外掛
 mac-word-plugin-install-folder-message = { -app-name } needs access to Word’s startup folder to install the Word plugin.
 mac-word-plugin-install-action-button =
     .label = 安裝 Word 外掛

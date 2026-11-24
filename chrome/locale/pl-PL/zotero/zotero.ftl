@@ -410,8 +410,8 @@ file-interface-items-were-relinked =
         [one] One item was relinked
        *[other] { $numRelinked } items were relinked
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Podczas importowania wybranego pliku z “{ $translator }” pojawił się błąd. Proszę, upewnij się, że ten plik jest poprawny i spróbuj ponownie.
 import-online-intro = W następnym kroku zostaniesz poproszony(a), aby zalogować się do { $targetAppOnline } i udzielić dostępu { -app-name }. Jest to niezbędne, aby zaimportować twoją bibliotekę { $targetApp } do { -app-name }.
@@ -760,7 +760,7 @@ attachment-preview-placeholder = Brak załącznika do pokazania w podglądzie
 attachment-rename-from-parent =
     .tooltiptext = Zmień nazwę pliku tak, aby odpowiadał elementowi nadrzędnemu
 account-log-in = Zaloguj się
-account-not-logged-in-text = Zaloguj się do swojego konta Zotero, aby zsynchronizować swoje dane.
+account-not-logged-in-text = Zaloguj się do swojego konta Pinkes, aby zsynchronizować swoje dane.
 account-error-login-session-expired = Twoja sesja logowania wygasła. Proszę spróbuj ponownie.
 toggle-preview =
     .label =
@@ -1047,7 +1047,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Wklej i wyszukaj
-mac-word-plugin-install-message = Do instalacji wtyczki Word wymagany jest dostęp Zotero do danych Word.
+mac-word-plugin-install-message = Do instalacji wtyczki Word wymagany jest dostęp Pinkes do danych Word.
 mac-word-plugin-install-folder-message = Aby zainstalować wtyczkę Word, { -app-name } wymaga dostępu do katalogu startowego Worda.
 mac-word-plugin-install-action-button =
     .label = Zainstaluj wtyczkę Word

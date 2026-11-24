@@ -371,8 +371,8 @@ file-interface-items-were-relinked =
         [one] 已重新链接 1 个条目
        *[other] 已重新链接 { $numRelinked } 个条目
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = 使用“{ $translator }”导入所选文件时发生错误。请确保该文件有效，然后重试。
 import-online-intro = 在下一步中，您需要登录 { $targetAppOnline } 并授予 { -app-name } 访问权限。这是将您的 { $targetApp } 库导入到 { -app-name } 所必需的。
@@ -703,7 +703,7 @@ attachment-preview-placeholder = 无可预览的附件
 attachment-rename-from-parent =
     .tooltiptext = 重命名文件以匹配上级条目
 account-log-in = 登录
-account-not-logged-in-text = 登录Zotero账户以同步你的数据。
+account-not-logged-in-text = 登录Pinkes账户以同步你的数据。
 account-error-login-session-expired = 登录会话已过期。请重试。
 toggle-preview =
     .label =
@@ -969,7 +969,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = 粘贴并搜索
-mac-word-plugin-install-message = Zotero 需要访问 Word 数据才能安装 Word 插件。
+mac-word-plugin-install-message = Pinkes 需要访问 Word 数据才能安装 Word 插件。
 mac-word-plugin-install-folder-message = { -app-name }  需要访问 Word 的 startup 文件夹才能安装 Word 插件。
 mac-word-plugin-install-action-button =
     .label = 安装 Word 插件

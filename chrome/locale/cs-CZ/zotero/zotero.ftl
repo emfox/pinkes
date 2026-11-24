@@ -390,8 +390,8 @@ file-interface-items-were-relinked =
         [one] Jedna položka byla znovu propojena
        *[other] { $numRelinked } položky byly znovu propojeny
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Při importu vybraného souboru pomocí “{ $translator }” došlo k chybě. Přesvědčte se, prosím, že je soubor v pořádku, a zkuste import znovu.
 import-online-intro = V dalším kroku budete vyzváni, abyste se přihlásili do { $targetAppOnline } a povolili { -app-name } přístup. Je to nutné pro import vaší knihovny  { $targetApp } do { -app-name }.
@@ -740,7 +740,7 @@ attachment-preview-placeholder = Žádná příloha k náhledu
 attachment-rename-from-parent =
     .tooltiptext = Rename File to Match Parent Item
 account-log-in = Log In
-account-not-logged-in-text = Log in to your Zotero account to sync your data.
+account-not-logged-in-text = Log in to your Pinkes account to sync your data.
 account-error-login-session-expired = Your login session has expired. Please try again.
 toggle-preview =
     .label =
@@ -1027,7 +1027,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Vložit a vyhledat
-mac-word-plugin-install-message = K instalaci doplňku pro Word potřebuje Zotero přístup k datům Wordu.
+mac-word-plugin-install-message = K instalaci doplňku pro Word potřebuje Pinkes přístup k datům Wordu.
 mac-word-plugin-install-folder-message = { -app-name } needs access to Word’s startup folder to install the Word plugin.
 mac-word-plugin-install-action-button =
     .label = Instalovat doplněk pro Word

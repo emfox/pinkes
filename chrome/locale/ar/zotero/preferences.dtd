@@ -121,7 +121,7 @@
 <!ENTITY zotero.preferences.cite.styles.styleManager.updated "آخر تحديث">
 <!ENTITY zotero.preferences.cite.styles.styleManager.csl "لغة نمط الاستشهاد">
 
-<!ENTITY zotero.preferences.keys.saveToZotero "احفظ في زوتيرو (ايقونة شريط العنوان)">
+<!ENTITY zotero.preferences.keys.saveToPinkes "احفظ في زوتيرو (ايقونة شريط العنوان)">
 <!ENTITY zotero.preferences.keys.focusLibrariesPane "ركز على جزء المكتبات">
 <!ENTITY zotero.preferences.keys.quicksearch "البحث السريع">
 <!ENTITY zotero.preferences.keys.newItem "انشئ عنصر جديد">

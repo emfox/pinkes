@@ -388,8 +388,8 @@ file-interface-items-were-relinked =
         [one] Bir eser yeniden bağlantılandı
        *[other] { $numRelinked } eser yeniden bağlantılandı
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Seçilmiş dosyayı “{ $translator }” ile içeri aktarırken bir hata oluştu. Lütfen dosyanın geçerliliğini kontrol ediniz ve tekrar deneyiniz.
 import-online-intro = Gelecek aşamada, { $targetAppOnline } uygulamasına giriş yapmanız ve { -app-name } uygulamasına erişim vermeniz istenecek. Bu, { $targetApp } kitaplığınızı { -app-name } içine aktarabilmek için gereklidir.
@@ -726,7 +726,7 @@ attachment-preview-placeholder = Önizleyecek bir ek yok
 attachment-rename-from-parent =
     .tooltiptext = Ana Esere Uymak için Dosyayı Yeniden Adlandır
 account-log-in = Log In
-account-not-logged-in-text = Log in to your Zotero account to sync your data.
+account-not-logged-in-text = Log in to your Pinkes account to sync your data.
 account-error-login-session-expired = Your login session has expired. Please try again.
 toggle-preview =
     .label =
@@ -999,7 +999,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Yapıştır ve Ara
-mac-word-plugin-install-message = Word eklentisini kurmak için, Zotero'nun Word verilerine erişmesi gerekiyor.
+mac-word-plugin-install-message = Word eklentisini kurmak için, Pinkes'nun Word verilerine erişmesi gerekiyor.
 mac-word-plugin-install-folder-message = { -app-name } needs access to Word’s startup folder to install the Word plugin.
 mac-word-plugin-install-action-button =
     .label = Word Eklentisini Kur

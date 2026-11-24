@@ -405,8 +405,8 @@ file-interface-items-were-relinked =
         [one] Un elemento ricollegato
        *[other] { $numRelinked } elementi ricollegati
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = L'importazione del file selezionato con “{ $translator }” ha dato un errore. Si prega di controllare che sia un file valido e riprovare.
 import-online-intro = Nel passaggio successivo verrà richiesto di autenticarsi in { $targetAppOnline } e fornire l'accesso a { -app-name }. Ciò è necessario per importare la biblioteca di { $targetApp } in { -app-name }.
@@ -749,7 +749,7 @@ attachment-preview-placeholder = Nessun allegato da mostrare
 attachment-rename-from-parent =
     .tooltiptext = Rinominare il file in base ai metadati dell'elemento genitore
 account-log-in = Accedi
-account-not-logged-in-text = Accedi al tuo account Zotero per sincronizzare i dati.
+account-not-logged-in-text = Accedi al tuo account Pinkes per sincronizzare i dati.
 account-error-login-session-expired = La sessione di accesso è scaduta. Riprova.
 toggle-preview =
     .label =
@@ -1029,7 +1029,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Incolla e cerca
-mac-word-plugin-install-message = Zotero richiede l'accesso alla cartella dati di Word per installare il plugin.
+mac-word-plugin-install-message = Pinkes richiede l'accesso alla cartella dati di Word per installare il plugin.
 mac-word-plugin-install-folder-message = { -app-name } richiede l'accesso alla cartella di avvio di Word per installare il plugin.
 mac-word-plugin-install-action-button =
     .label = Installa il plugin Word

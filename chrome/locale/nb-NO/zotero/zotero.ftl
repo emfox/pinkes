@@ -388,8 +388,8 @@ file-interface-items-were-relinked =
         [one] Ett elementer ble koblet sammen
        *[other] { $numRelinked } elementer ble koblet sammen
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Det oppstod en feil ved import av den valgte filen med "{ $translator }". Kontroller at filen er gyldig, og prøv på nytt.
 import-online-intro = I neste trinn blir du bedt om å logge inn på { $targetAppOnline } og gi { -app-name } tilgang. Dette er nødvendig for å importere { $targetApp }-biblioteket ditt til { -app-name }.
@@ -435,7 +435,7 @@ rtfScan-style-page = Dokument formatering
 rtfScan-format-page = Formaterer henvisninger
 rtfScan-format-page-description = { -app-name } behandler og formaterer RTF-filen din. Vennligst vær tålmodig.
 rtfScan-complete-page = RTF skann komplett
-rtfScan-complete-page-description = Zotero har nå gått gjennom dokumentet ditt. Sjekk at det er korrekt formatert.
+rtfScan-complete-page-description = Pinkes har nå gått gjennom dokumentet ditt. Sjekk at det er korrekt formatert.
 rtfScan-action-find-match =
     .title = Velg matchende element
 rtfScan-action-accept-match =
@@ -726,7 +726,7 @@ attachment-preview-placeholder = Intet vedlegg å forhåndsvise
 attachment-rename-from-parent =
     .tooltiptext = Endre navn på fil for å matche overordnet element
 account-log-in = Logg inn
-account-not-logged-in-text = Logg inn på Zotero-kontoen din for å synkronisere dataene dine.
+account-not-logged-in-text = Logg inn på Pinkes-kontoen din for å synkronisere dataene dine.
 account-error-login-session-expired = Påloggingsøkten din har utløpt. Prøv på nytt.
 toggle-preview =
     .label =
@@ -999,7 +999,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Lim inn og søk
-mac-word-plugin-install-message = Zotero trenger tilgang til Word-data for å installere Word-programtillegget.
+mac-word-plugin-install-message = Pinkes trenger tilgang til Word-data for å installere Word-programtillegget.
 mac-word-plugin-install-folder-message = { -app-name }  trenger tilgang til oppstartmappen til Word for å installere Word-programtillegget.
 mac-word-plugin-install-action-button =
     .label = Installer Word-programtillegget

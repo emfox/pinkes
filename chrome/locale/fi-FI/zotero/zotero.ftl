@@ -388,8 +388,8 @@ file-interface-items-were-relinked =
         [one] Yksi nimike uudelleenlinkitettiin
        *[other] { $numRelinked } nimikettä uudelleenlinkitettiin
     }
-import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
-import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Zotero?</a> for more information.
+import-mendeley-cannot-decrypt = The selected Mendeley database could not be decrypted. This can happen if the database file has been renamed. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
+import-mendeley-unsupported = The selected file does not appear to be a Mendeley database. See <a data-l10n-name="mendeley-import-kb">How do I import a Mendeley library into Pinkes?</a> for more information.
 import-mendeley-db-in-use = The selected Mendeley database is in use. Please quit Mendeley Desktop and try again.
 file-interface-import-error-translator = Tapahtui virhe tuotaessa tiedostoa “{ $translator }”lla. Varmista että tiedosto on kelvollinen ja yritä uudelleen.
 import-online-intro = Seuraavassa vaiheessa sinua pyydetään kirjautumaan sisään sovellukseen { $targetAppOnline } ja antamaan { -app-name }lle pääsyoikeudet. Tämä on välttämätöntä, jotta { $targetApp }n kirjasto voidaan tuoda { -app-name }-sovellukseen.
@@ -726,7 +726,7 @@ attachment-preview-placeholder = Ei liitettä esikatseltavaksi
 attachment-rename-from-parent =
     .tooltiptext = Uudelleennimeä tiedosto täsmäämään päänimikkeeseen
 account-log-in = Kirjaudu sisään
-account-not-logged-in-text = Kirjaudu Zotero-tilillesi synkronoidaksesi tietosi.
+account-not-logged-in-text = Kirjaudu Pinkes-tilillesi synkronoidaksesi tietosi.
 account-error-login-session-expired = Sisäänkirjautumisesi on vanhentunut. Yritä uudestaan.
 toggle-preview =
     .label =
@@ -999,7 +999,7 @@ post-upgrade-done =
     .label = { general-done }
 text-action-paste-and-search =
     .label = Liitä ja etsi
-mac-word-plugin-install-message = Zotero vaatii pääsyn Wordin tietoihin jotta lisäosa voidaan asentaa
+mac-word-plugin-install-message = Pinkes vaatii pääsyn Wordin tietoihin jotta lisäosa voidaan asentaa
 mac-word-plugin-install-folder-message = { -app-name } needs access to Word’s startup folder to install the Word plugin.
 mac-word-plugin-install-action-button =
     .label = Asenna Word-lisäosa
